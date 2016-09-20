@@ -94,7 +94,7 @@ public class MusicPlayer extends Thread implements ActionListener {
             FileDialog fd = new FileDialog(playerFrame, "Open Box", FileDialog.LOAD);
             fd.setSize(300, 300);
             fd.setVisible(true);
-            String s1 = "ltf.wav";
+            String s1 = "go.wav";
             String sng = fd.getFile();
             filePath = fd.getDirectory() + fd.getFile();
             if (sng.toLowerCase().endsWith(s1)) { //Error message
